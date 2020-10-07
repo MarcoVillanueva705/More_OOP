@@ -25,6 +25,8 @@ namespace More_OOP
                 Console.WriteLine(Ford.model);  // Print the value of model
                 Console.WriteLine(Ford.color);
             }
+            //All classes have constructors by default: if you do not create a class constructor yourself, 
+            //C# creates one for you. However, then you are not able to set initial values for fields.
         }
     }
 }
